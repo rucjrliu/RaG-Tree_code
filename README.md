@@ -1,1 +1,7 @@
 # RaG-Tree_code
+
+This is the code corresponding to the paper: RaG-Tree: Combining R-Tree and HNSW for Multi-Attribute Range Filtered Approximate Nearest Neighbor Search.
+
+## Abstract
+
+Approximate nearest-neighbor search (ANNS) over high-dimensional vectors is a fundamental operation in modern AI systems. In many real-world applications, such as e-commerce and real-estate software, vector objects are associated with multiple attributes, giving rise to the problem of multi-attribute range-filtered ANNS (MR-ANNS). Existing MR-ANNS indexes remain inefficient because they rely on single-attribute data partitioning and search. However, supporting efficient MR-ANNS is challenging due to dynamics of workload, including varying query selectivities and data updates. In this work, we propose RaG-Tree, an adaptive index that combines an R-tree with HNSW graphs for MR-ANNS. RaG-Tree makes three contributions. First, it maintains HNSW graphs with adaptive maximum degrees according to the correlated distributions of vectors and multiple attributes. Second, RaG-Tree employs a cost-based adaptive search algorithm that considers query selectivity and HNSW candidate-list length to improve the efficiency. Third, RaG-Tree introduces delta graphs to maintain updated data and leverages the adaptive graph merging. Experimental results on multiple MR-ANNS datasets indicate that, compared with the MR-ANNS baselines, RaG-Tree improves QPS by up to 4x at the same recall.
