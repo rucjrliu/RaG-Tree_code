@@ -17,6 +17,9 @@ This is the code corresponding to the paper: RaG-Tree: Combining R-Tree and HNSW
 
 Download file **dataset_and_indexfiles.tar** (the data and indexfiles containing in this tar file is necessary for all experiments in the paper) from OneDrive sharing link: https://1drv.ms/u/c/f9c0a1a8c6911768/IQCgKCG24AfdRJCpiFNxvkp-AV0xltaj2qmDM7lt4s3GEKA?e=FZor9V and then decompress it:
 
+    mkdir data
+    mkdir indexfiles
+    mkdir output
     tar -xf dataset_and_indexfiles.tar
     mv dataset_and_indexfiles/data/* data/
     mv dataset_and_indexfiles/indexfiles/* indexfiles/
