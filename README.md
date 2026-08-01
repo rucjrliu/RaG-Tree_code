@@ -79,6 +79,10 @@ Firstly, download file **dataset_and_indexfiles_for_varying_attrnum.tar** (the d
 
 Notice: another 260GB and more storage space.
 
+Then,
+
+    cd test_ragtree
+
 Afterwards, run the search performance experiments by
 
     ./run_ragtree_s.sh 1 <dataset> a <CAS> <top-k> <ef_search>
