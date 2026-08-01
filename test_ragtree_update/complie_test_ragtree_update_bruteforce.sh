@@ -1,0 +1,1 @@
+$CXX -O3 -o test_ragtree_update_bruteforce test_ragtree_update_bruteforce.cpp -std=c++20 -DRTREE_NSW_USE_HNSWLIB -I$CONDA_PREFIX/include -L$CONDA_PREFIX/lib -lcnpy -lz 
